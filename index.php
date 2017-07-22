@@ -47,7 +47,7 @@
 				</p>
 				<br>
 				<p class="text-center custom-icon">
-					<a href="#sec-two"><i class="fa fa-angle-double-down fa-4x"></i></a>
+					<a href="#sec-two"><span class="fa-stack fa-lg fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-angle-down fa-stack-2x angle-color"></i></span></a>
 				</p>
 			</div>
 		</div>
@@ -97,6 +97,22 @@
 	</section>
 
 	<section class="section-three" id="sec-three">
+		<div class="container">
+			<div class="row">
+				<h4 class="text-center">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse repudiandae officiis, inventore doloribus explicabo enim harum, dolorum animi, mollitia distinctio, aperiam pariatur consequatur deserunt!."<br><small>-AetherApps Development Team</small></h4>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-four" id="sec-four">
+		<div class="container">
+			<div class="row">
+				<h1>Some of our works</h1>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-five" id="sec-five">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-custom-one">
@@ -181,29 +197,39 @@
 		});
 		sr.reveal('.def-one', {
 			duration: 1500,
-			distance: '50px',
-			origin: 'bottom'
+			viewFactor: 0.4,
+			distance: '60px',
+			origin: 'bottom',
+			scale: 1
 		});
 		sr.reveal('.def-two', {
 			duration: 1500,
-			distance: '50px',
-			origin: 'bottom'
+			viewFactor: 0.4,
+			distance: '60px',
+			origin: 'bottom',
+			scale: 1
 		});
 		sr.reveal('.def-three', {
 			duration: 1500,
-			distance: '50px',
-			origin: 'bottom'
+			viewFactor: 0.4,
+			distance: '60px',
+			origin: 'bottom',
+			scale: 1
 		});
 		sr.reveal('.announcement-header', {
-			duration: 1500,
-			distance: '20px',
-			origin: 'left'
+			duration: 2000,
+			scale: 1,
+			distance: '40px',
+			origin: 'top'
 		});
 		sr.reveal('.timer', {
-			duration: 1500,
-			distance: '20px',
-			origin: 'right'
+			duration: 2000,
+			scale: 1,
+			distance: '40px',
+			origin: 'bottom'
 		});
 	</script>
+
+	<script src="bootstrap/js/zenscroll.js"></script>
 </body>	
 </html>
