@@ -23,7 +23,10 @@
 					<span class="icon-bar middle-bar"></span>
 					<span class="icon-bar bottom-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><span><img src="img/logo.png" class="brand-logo"></span><h3 class="brand-text">AetherApps</h3></a>
+				<div class="navbar-custom-brand">
+					<div class="navbar-custom-brand-logo"></div>
+					<div class="navbar-custom-brand-text">AetherApps</div>
+				</div>
 			</div>
 	
 			<div id="navbar-ex1-collapse" class="navbar-collapse collapse text-center">
@@ -47,20 +50,17 @@
 				</p>
 				<br>
 				<p class="text-center custom-icon">
-					<a href="#sec-two"><span class="fa-stack fa-lg fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-angle-down fa-stack-2x angle-color"></i></span></a>
+					<a href="#sec-two"><span class="fa-stack fa-lg fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-angle-double-down fa-stack-2x angle-color"></i></span></a>
 				</p>
+				<!-- <p class="text-center custom-icon">
+					<button class="bg-circle" href="#sec-two"><i class="fa fa-angle-double-down fa-3x"></i></button>
+				</p> -->
 			</div>
 		</div>
 	</section>
 
 	<section class="section-two" id="sec-two">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h1 class="text-center def-zero">AetherApps...</h1>
-				</div>
-			</div>
-			<hr class="hr-dark">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 def-one">
 					<h1 class="text-center"><i class="fa fa-code"></i></h1>
@@ -73,7 +73,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 def-two">
-					<h1 class="text-center"><i class="fa fa-twitter"></i></h1>
+					<h1 class="text-center"><i class="fa fa-heart-o"></i></h1>
 					<h2 class="text-center custom-sm-title">ENTERTAIN</h2>
 					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -107,7 +107,37 @@
 	<section class="section-four" id="sec-four">
 		<div class="container">
 			<div class="row">
-				<h1>Some of our works</h1>
+				<h1 class="text-center">SOME OF OUR WORKS</h1>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="img/logo-alt.png">
+					</div>
+					<div class="caption">
+						<h3 class="text-center">BMICalc</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea inventore ipsam quibusdam beatae obcaecati quos ab, eius dolores.</p>
+						<a href="">COMING SOON...</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="img/logo-alt.png">
+					</div>
+					<div class="caption">
+						<h3 class="text-center">Blocc</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea inventore ipsam quibusdam beatae obcaecati quos ab, eius dolores.</p>
+						<a href="">COMING SOON...</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="img/logo-alt.png">
+					</div>
+					<div class="caption">
+						<h3 class="text-center">Comprsr</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea inventore ipsam quibusdam beatae obcaecati quos ab, eius dolores.</p>
+						<a href="">COMING SOON...</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -153,13 +183,13 @@
 				</div>
 			</div>
 		</div>
-		<hr class="hr-light">
-		<p class="text-center"><img src="img/logo.png" class="brand-logo-alt">	Copyright &copy; 2017 AetherApps Incorparated. All Rights Reserved.</p>
+		<hr class="hr-dark">
+		<p class="text-center"><img src="img/logo-alt.png" class="brand-logo-alt">	Copyright &copy; 2017 AetherApps Incorparated. All Rights Reserved.</p>
 	</footer>
 
 	<script>
 		window.sr = ScrollReveal();
-		sr.reveal('.navbar', {
+		sr.reveal('#navi', {
 			duration: 2000,
 			distance: '100px',
 			origin: 'top'
@@ -183,16 +213,6 @@
 			delay: 500,
 			duration: 2000,
 			distance: '200px',
-			origin: 'bottom'
-		});
-		sr.reveal('.def-zero', {
-			duration: 1500,
-			distance: '50px',
-			origin: 'bottom'
-		});
-		sr.reveal('.hr-dark', {
-			duration: 1500,
-			distance: '50px',
 			origin: 'bottom'
 		});
 		sr.reveal('.def-one', {
