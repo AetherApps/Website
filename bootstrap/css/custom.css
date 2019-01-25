@@ -194,7 +194,7 @@ body{
 
 }
 footer{
-	background-color: rgba(50,50,50,1);
+	background-color: rgba(50,56,67,1);
 	padding-top: 25px;
 	padding-bottom: 15px;
 	padding-left: 15px;
@@ -337,4 +337,16 @@ footer{
 	border-radius: 50px;
 	width: 60px;
 	height: 60px;
+}
+.wave{
+	background-image: url('../../img/wavy-bg-lg.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-color: #3d6098;
+}
+.wave-fix{
+	text-align: center;
+	padding: 20vmin;
+	margin: 0;
 }
