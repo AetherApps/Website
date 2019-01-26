@@ -332,7 +332,7 @@ footer{
   transform: translate(0,0) rotate(0);
 }
 .bg-circle{
-	backgroud-color: red !important;
+	background-color: red !important;
 	color: #fff;
 	border-radius: 50px;
 	width: 60px;
@@ -340,13 +340,13 @@ footer{
 }
 .wave{
 	background-image: url('../../img/wavy-bg-lg.svg');
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	background-color: #3d6098;
 }
 .wave-fix{
 	text-align: center;
-	padding: 20vmin;
+	padding: 20vh;
 	margin: 0;
 }
