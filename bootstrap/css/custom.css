@@ -350,3 +350,6 @@ footer{
 	padding: 20vh;
 	margin: 0;
 }
+.btn{
+	border-radius: 25px;
+}

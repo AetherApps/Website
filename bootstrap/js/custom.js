@@ -1,5 +1,5 @@
 	//Timer
-	var targetDate = new Date("Aug 12, 2017 00:00:00").getTime();
+	var targetDate = new Date("Apr 1, 2019 00:00:00").getTime();
 	var x = setInterval(function() {
 	    // Get todays date and time
 	    var now = new Date().getTime();
